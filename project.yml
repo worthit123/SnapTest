@@ -1,1 +1,18 @@
-codemagic.yaml
+name: SnapTest
+
+options:
+  bundleIdPrefix: com.snaptest
+
+targets:
+  SnapTest:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: ContentView.swift
+      - path: SnapTestApp.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.snaptest.app
+        INFOPLIST_KEY_CFBundleDisplayName: SnapTest
+        SWIFT_VERSION: "5.0"
