@@ -17,4 +17,4 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: SnapTest
         SWIFT_VERSION: "5.0"
         GENERATE_INFOPLIST_FILE: YES
- ENABLE_DEBUG_DYLIB: NO
+        ENABLE_DEBUG_DYLIB: NO  
